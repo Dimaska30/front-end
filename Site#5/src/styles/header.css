@@ -1,0 +1,70 @@
+.header {
+    max-width:1016px;
+	margin:auto;
+}
+
+.header_progress-bar {
+    background-color: #5c6bc0;
+    width: 52.5%;
+    height: 0.1%;
+}
+
+.header__logo {
+    display: inline-block;
+    margin: 79px 0;
+}
+
+.nav {
+    margin: 89 0;
+    float: right;
+    display: inline-block;
+}
+
+.nav_footer {
+    float: none;
+    margin: 45px auto;
+}
+
+.nav-menu {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-menu__item {
+    display: inline-block;
+    padding: 0 17px;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #333333;
+    font: 700 16px / 25px Lato;
+}
+
+.nav-menu__item:hover {
+    border-bottom: 3px solid #5c6bc0;
+    padding-bottom: 3px;
+}
+
+.nav-menu__item:active {
+    color: #5c6bc0;
+    border-bottom: 0px;
+}
+
+.nav-menu__item_inactive {
+    border-width: 0;
+    cursor: not-allowed;
+    color: #bdbdbd;
+    display: inline-block;
+    padding: 0 17px;
+    text-transform: uppercase;
+}
+
+.search {
+    width: 16px;
+    height: 16px;
+    background: url(../images/Search.png);
+    display: inline-block;
+    margin-left:17px ;
+}
+.search {
+    background: url(../images/HoverSearch.png);
+}

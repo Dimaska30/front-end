@@ -1,0 +1,156 @@
+.link{
+    text-decoration:none;
+    color: #333333;
+}
+.body {
+    min-width: 1016px;
+    background-color: #f7f9fc;
+}
+
+
+.main {
+    margin: auto;
+    min-width: 1016px;
+    max-width: 1016px;
+}
+
+.article {
+    padding: 58px 97px 78px 97px;
+    background-color: #ffffff;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.article__tag {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    min-height: 32px;
+    min-width: 94px;
+    background-color: #5c6bc0;
+    position: absolute;
+    top:20px;
+    left: 91%;
+    color: #ffffff;
+    font: 700 14px / 32px Lato;
+}
+
+.article__date {
+    color: #bdbdbd;
+    font: 700 14px / 50px Lato;
+}
+
+.article_header {
+    display: block;
+    /*margin: 24px 97px 0 97px;*/
+    max-height: 750px;
+    color: #000000;
+    font: 700 40px / 50px Lato;
+}
+
+.article__sep {
+    background-color: #eeeeee;
+    height: 2px;
+    width: 756px;
+    margin: 41px 0;
+}
+
+.article__text {
+    margin-top: 35px;
+    color: rgba(0, 0, 0, 0.8);
+    font: 400 17px / 30px Lato;
+}
+
+.article__read-more {
+    padding: 19px 34px 19px 34px; 
+    text-transform: uppercase;
+    color: #5c6bc0;
+    font: 700 21px / 50px Lato;
+}
+
+.link_readMore {
+    display: inline-block;
+    margin-top: 55px;
+}
+
+.article__heshtags {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.3);
+    font: 400 15px / 50px Lato;
+    margin-top: 55px;
+    float: right;
+    
+}
+
+.section {
+    position: relative;
+    padding: 12px;
+    margin-bottom: 50px;
+}
+
+.article_with-img {
+    position: relative;
+}
+
+.article__main-img {
+    margin: auto;
+}
+
+.article__epigraph {
+    color: rgba(0, 0, 0, 0.5);
+    font: italic 25px / 38px Lato;
+}
+
+.article__text_quote {
+    color: rgba(0, 0, 0, 0.4);
+    font: 400 20px / 30px Lato;
+    border-left: 4px solid #eeeeee;
+    padding-left: 22px;
+}
+
+.article__img-in-article {
+    margin-right: 23px;
+    float: left;
+}
+
+
+
+.link_img {
+    margin-right: 23px;
+    width: 32px;
+    height: 32px;
+}
+
+.non-float {
+    clear:left;
+}
+
+/*Особенные*/
+
+.article__tag:hover {
+    background-color:#6c79c6;
+    min-height: 37px;
+    min-width: 114px;
+}
+
+.article__tag:active {
+    background-color: #5360ac;
+    min-height: 37px;
+    min-width: 114px;
+}
+
+.article__read-more:hover {
+    border: 1px solid #f1f1f1;
+}
+
+.article__read-more:active { 
+    border: 1px solid #7d89cd;
+}
+
+.article__heshtags:hover {
+    color: #5c6bc0;
+    text-decoration-line: underline;
+}
+
+.article__heshtags:active {
+    color: #5c6bc0;
+}

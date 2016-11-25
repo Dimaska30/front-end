@@ -1,0 +1,67 @@
+.footer {
+    margin-top: 67px;
+    background-color: #5c6bc0;
+    align-content: center;
+    text-align: center;
+}
+
+.link_logofooter {
+    display: block;
+    margin-top: 67px auto;
+    align-content: center;
+}
+
+.footer__logo {
+    margin-top: 67px;
+}
+
+.link_footer {
+    color: #ffffff;
+    font: 700 16px / 25px Lato;
+}
+
+.footer__text {
+    max-width: 756px;
+    margin: auto;
+    padding: 43px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+    border-top: 2px solid rgba(0, 0, 0, 0.06);
+    color: rgba(255, 255, 255, 0.4);
+    font: 400 13px / 23px Lato;
+}
+
+.footer__copyright {
+     
+}
+
+.footer__copyright {
+    margin-top: 39px;
+    color: rgba(255, 255, 255, 0.4);
+    font: 400 14px / 30px Lato; 
+}
+
+.share {
+    margin: 37px auto;
+}
+
+
+.link_footer:hover {
+    color: #ffffff;
+    text-decoration-line: underline;
+}
+
+.link_img:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.link_search-footer {
+    width: 32px;
+    height: 32px;
+}
+
+.search-footer {
+    width: 16px;
+    height: 16px;
+    background: url(../images/Search-footer.png);
+}
+
