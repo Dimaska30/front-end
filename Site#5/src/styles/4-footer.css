@@ -20,6 +20,7 @@
     font: 700 16px / 25px Lato;
 }
 
+/*Действия*/
 .footer__text {
     max-width: 756px;
     margin: auto;
@@ -31,14 +32,11 @@
 }
 
 .footer__copyright {
-     
-}
-
-.footer__copyright {
     margin-top: 39px;
     color: rgba(255, 255, 255, 0.4);
     font: 400 14px / 30px Lato; 
 }
+
 
 .share {
     margin: 37px auto;
@@ -63,5 +61,19 @@
     width: 16px;
     height: 16px;
     background: url(../images/Search-footer.png);
+}
+
+.nav-menu__item_footer{
+    display: inline-block;
+    padding: 0 17px;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #ffffff;
+    font: 700 16px / 25px Lato;
+    
+}
+
+.nav-menu__item_footer:hover{
+
 }
 

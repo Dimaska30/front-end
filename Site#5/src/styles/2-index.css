@@ -1,12 +1,10 @@
 .link{
     text-decoration:none;
-    color: #333333;
 }
 .body {
     min-width: 1016px;
     background-color: #f7f9fc;
 }
-
 
 .main {
     margin: auto;
@@ -15,6 +13,7 @@
 }
 
 .article {
+    margin-bottom: 50px;
     padding: 58px 97px 78px 97px;
     background-color: #ffffff;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
@@ -26,22 +25,24 @@
     text-align: center;
     min-height: 32px;
     min-width: 94px;
+    padding: 1px 2px;
     background-color: #5c6bc0;
     position: absolute;
-    top:20px;
-    left: 91%;
+    top:-45px;
+    left: 103%;
     color: #ffffff;
-    font: 700 14px / 32px Lato;
+    font: 700 14px / 50px Lato;
+    transition: padding background-color 2s linear 0s;
 }
 
 .article__date {
+    position: relative;
     color: #bdbdbd;
     font: 700 14px / 50px Lato;
 }
 
 .article_header {
     display: block;
-    /*margin: 24px 97px 0 97px;*/
     max-height: 750px;
     color: #000000;
     font: 700 40px / 50px Lato;
@@ -65,6 +66,9 @@
     text-transform: uppercase;
     color: #5c6bc0;
     font: 700 21px / 50px Lato;
+    transition: border 2s linear 0,5s;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
 }
 
 .link_readMore {
@@ -81,18 +85,16 @@
     
 }
 
-.section {
-    position: relative;
-    padding: 12px;
-    margin-bottom: 50px;
-}
+
 
 .article_with-img {
     position: relative;
 }
 
 .article__main-img {
-    margin: auto;
+    position: absolute;
+    left: -60px;
+    top: -58px;
 }
 
 .article__epigraph {
@@ -112,8 +114,6 @@
     float: left;
 }
 
-
-
 .link_img {
     margin-right: 23px;
     width: 32px;
@@ -124,18 +124,23 @@
     clear:left;
 }
 
-/*Особенные*/
+.empty-div-for-image {
+    width: 952px;
+    height: 533px;
+    margin: 48px auto;
+    position: relative;
+}
+
+/*Действия*/
 
 .article__tag:hover {
     background-color:#6c79c6;
-    min-height: 37px;
-    min-width: 114px;
+    padding: 5px 7px;
 }
 
 .article__tag:active {
     background-color: #5360ac;
-    min-height: 37px;
-    min-width: 114px;
+    padding: 5px 7px;
 }
 
 .article__read-more:hover {
@@ -154,3 +159,4 @@
 .article__heshtags:active {
     color: #5c6bc0;
 }
+
