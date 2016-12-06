@@ -13,6 +13,9 @@
 .header__logo {
     display: inline-block;
     margin: 79px 0;
+    background-image: url(../images/Palo-Alto.png);
+    width: 157px;
+    height: 33px;
 }
 
 .nav {
@@ -37,7 +40,7 @@
     text-transform: uppercase;
     text-decoration:none;
     color: #333333;
-    font: 700 16px / 25px Lato;
+    font: 16px / 25px Lato;
     transition: border 1s linear 0s;
 }
 

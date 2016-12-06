@@ -1,0 +1,126 @@
+
+@media screen and (max-width: 480px) {
+    .body{
+        width: 480px;
+    }
+    
+    .header{
+        width: 480px;
+    }
+    
+    .nav{
+        width: 36px;
+        height: 26px;
+        background: url(../images/burger.png);
+    }
+    
+    .main{
+        min-width: 450px;
+        max-width: 450px;
+    }
+    
+    .article{
+        margin: 15px;
+        margin-bottom: 40px;
+        padding: 49px;
+        position: relative;
+    }
+    
+    .article__date{
+        position: static;
+    }
+    
+    .article__tag{
+        top:0;
+        left: 77%;
+    }
+    
+    .article__sep{
+        width: 330px;
+        height: 2px;
+    }
+    
+    .empty-div-for-image {
+        width: 450px;
+        height: 380px;
+        margin: 0 0 -29px 0;
+    }
+    
+    .article-img{
+        top:0;
+        left:0;
+        width: 450px;
+        height: 380px;
+        background: url(../images/mountain480.png);
+    }
+    
+    .article__heshtags{
+        margin-top: 10px;
+        margin-right: 10px;
+        float: none;
+        font: 18px / 50px Lato;
+    }
+    
+    .HashtagsGroup{
+        margin: 0;
+        padding: -20px;
+        font-weight: 25px;
+    }
+    
+    .article__img-in-article{
+        float: none;
+        margin: 0 78px;
+    }
+    
+    .link_text{
+        color: #5c6bc0;
+    text-decoration: underline;
+    }
+    
+    .footer{
+        width: 480px;
+        padding: 71px 89px 133px 89px;
+    }
+    
+    .footer_copyright{
+        font: 14px / 23px Lato;
+    }
+    
+    .form__text{
+        width: auto;
+    }
+    
+    .form__textarea{
+        width: auto;
+    }
+    
+    .article__read-more{
+        padding: 5px;
+    }
+    
+}
+
+
+@media screen and (max-width: 320px) {
+    .body{
+        width: 320px;
+    }
+    
+    .header{
+        width: 320px;
+    }
+    
+    .main{
+        min-width: 280px;
+        max-width: 280px;
+    }
+    
+    .footer{
+        width: 320px;
+        text-align: center;
+        padding:71px 92px;
+    }
+    
+    .article__read-more{
+        padding: 5px;
+}

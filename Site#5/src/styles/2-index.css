@@ -1,6 +1,12 @@
 .link{
+    color:#ffffff;
     text-decoration:none;
 }
+
+.link_text{
+    color: #000000;
+}
+
 .body {
     min-width: 1016px;
     background-color: #f7f9fc;
@@ -17,6 +23,7 @@
     padding: 58px 97px 78px 97px;
     background-color: #ffffff;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .article__tag {
@@ -85,17 +92,15 @@
     
 }
 
-
+.HashtagsGroup{
+    
+}
 
 .article_with-img {
     position: relative;
 }
 
-.article__main-img {
-    position: absolute;
-    left: -60px;
-    top: -58px;
-}
+
 
 .article__epigraph {
     color: rgba(0, 0, 0, 0.5);
@@ -114,7 +119,17 @@
     float: left;
 }
 
+.article-img{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 952px;
+    height: 533px;
+    background: url(../images/mountain.jpg);
+}
+
 .link_img {
+    display: inline-block;
     margin-right: 23px;
     width: 32px;
     height: 32px;
@@ -128,7 +143,6 @@
     width: 952px;
     height: 533px;
     margin: 48px auto;
-    position: relative;
 }
 
 /*Действия*/

@@ -4,22 +4,26 @@
         <meta charset="utf-8"/>
         <meta name="keywords" content="7bits, Palo Alto">
         <meta name="description" content="This is the site that I hate:)">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="../images/1.ico" sizes="241x241"/>
         <link rel="shortcut icon" href="../images/gear.ico" sizes="128x128"/>
         <link rel="stylesheet" type="text/css" href="./vendor/vendor.css" />
         <link rel="stylesheet" href="../styles/styles.css"/>
-        <title>Palo Alto</title>
+        
+        {% block title %}
+        {% endblock %}
+        
     </head>
     <body class="body">
         <div class="progress-bar"></div>
         <header class="header">
-            <a href="index.html" class="link_img"><img src="../images/Palo-Alto.png" class="header__logo"/></a>
+            <a href="index.html" class="link_img"><div class="header__logo"></div></a>
             <nav class="nav">
                 <ul class="nav-menu nav-menu_center">
-                    <li class="nav-menu__item_inactive">Home</li>
-                    <li class="nav-menu__item"><a href="index.html" class="link">About</a></li>
-                    <li class="nav-menu__item"><a href="index.html" class="link">Archive</a></li>
-                    <li class="nav-menu__item"><a href="login.html" class="link">Contact</a></li>
+                    <a href="index.html" class="link"><li class="{% if navElmNoClick==1 %} nav-menu__item_inactive {% else %} nav-menu__item {% endif %}">Home</li></a>
+                    <a href="index.html" class="link"><li class="nav-menu__item">About</li></a>
+                    <a href="index.html" class="link"><li class="nav-menu__item">Archive</li></a>
+                    <a href="login.html" class="link"><li class="{% if navElmNoClick==4 %} nav-menu__item_inactive {% else %} nav-menu__item {% endif %}">Contact</li></a>
                     <li class="nav-menu__item_search"><div class="search"><a href="index.html"></a></div></li>
                 </ul>
             </nav>
@@ -32,11 +36,11 @@
             <a href="index.html" class="link_logofooter"><img class="footer__logo" src="../images/Palo-Alto-footer.png" alt="Palo Alto"/></a>
             <nav class="nav nav_footer">
                 <ul class="nav-menu nav-menu_footer">
-                    <li class="nav-menu__item_inactive"><a href="index.html" class="link">Home</a></li>
-                    <li class="nav-menu__item_footer"><a href="index.html" class="link link_footer">About</a></li>
-                    <li class="nav-menu__item_footer"><a href="index.html" class="link link_footer">Archive</a></li>
-                    <li class="nav-menu__item_footer"><a href="index.html" class="link link_footer">Contact</a></li>
-                    <li class="nav-menu__item_footer"><div class="search-footer"><a href="index.html"></a></div></li>
+                    <a href="index.html" class="link"><li class="{% if navElmNoClick==1 %} nav-menu__item_inactive {% else %} nav-menu__item_footer {% endif %}">Home</li></a>
+                    <a href="index.html" class="link link_footer"><li class="nav-menu__item_footer">About</li></a>
+                    <a href="index.html" class="link link_footer"><li class="nav-menu__item_footer">Archive</li></a>
+                    <a href="index.html" class="link link_footer"><li class="{% if navElmNoClick==4 %} nav-menu__item_inactive {% else %} nav-menu__item_footer {% endif %}">Contact</li></a>
+                    <li class="nav-menu__item_footer"><a href="index.html"><div class="search-footer"></div></a></li>
                 </ul>
             </nav>
             <div class="footer__text">Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor.</div>

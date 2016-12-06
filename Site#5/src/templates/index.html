@@ -1,5 +1,11 @@
 {% extends "layout.html"%}
 
+{% set navElmNoClick="1" %}
+
+{% block title %}
+<title>Palo Alto</title>
+{% endblock %}
+
 {% block main%}
 <main class="main">
                 <article class="article">
@@ -11,10 +17,12 @@
                 <div class="article__sep"></div>
                 <div class="article__text">Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna. Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.</div>
                 <a href="index.html" class="link link_readMore"><span class="article__read-more">Read More</span></a>
+                    <figure class="HashtagsGroup">
                 <a class="article__heshtags">#Yosemite </a><a class="article__heshtags">#Peak </a><a class="article__heshtags"> #Explorer </a>
+                    </figure>
             </article>
             <article class="article">
-                <div class="empty-div-for-image"><img src="../images/mountain.jpg" class="article__main-img" alt="mountain" srcset="../images/mountain@2x.jpg 2x"/></div>
+                <div class="empty-div-for-image"><div class="article-img"></div></div>
                 <div class="article__date">
                     Sep 18
                     <a href="index.html" class="article__tag">I Do Observe</a>
@@ -25,7 +33,9 @@
                 <div class="article__text">Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna. Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.</div>
                 <div class="article__text">Sed sagittis commodo dolor. Vivamus elementum sem sed sapien bibendum viverra. Curabitur semper scelerisque turpis eu ullamcorper. Morbi tincidunt auctor orci id consequat. Nulla odio mi, iaculis id congue quis, euismod id nisi. In varius congue diam, et viverra lorem bibendum ut.</div>
                 <a href="index.html" class="link link_readMore"><span class="article__read-more">Read More</span></a>
+                <figure class="HashtagsGroup">
                 <a class="article__heshtags">#Yosemite </a><a class="article__heshtags">#Peak </a><a class="article__heshtags"> #Explorer </a>
+                    </figure>
             </article>
             <article class="article">
                 <div class="article__date">
@@ -40,7 +50,9 @@
                 <div class="article__text article__text_quote">Curabitur ut leo pulvinar, consectetur magna eu, feugiat purus. Morbi hendrerit lectus turpis, a porttitor velit imperdiet id.</div>
                 <div class="article__text">Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor. Nullam scelerisque ante mauris, egestas commodo nisi gravida ultrices. Suspendisse dapibus feugiat tincidunt. Aliquam gravida quam at ipsum sagittis bibendum.</div>
                 <a class="link link_readMore"><span class="article__read-more">Read More</span></a>
+                <figure class="HashtagsGroup">
                 <a class="article__heshtags">#Democracy </a><a class="article__heshtags">#Introspection</a>
+                </figure>
             </article>
             
         </main>
